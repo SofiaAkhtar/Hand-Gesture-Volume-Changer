@@ -12,15 +12,16 @@ This Python script utilizes computer vision and gesture recognition techniques t
 ## Installation
 1. Make sure you have Python installed on your system. You can download it from the official Python website.
 2. Install the required dependencies using pip:
-Copy code
-pip install opencv-python mediapipe numpy pyautogui
+   ```python
+   pip install opencv-python mediapipe numpy pyautogui
 
 ## Usage
 1. Clone this repository to your local machine.
 2. Open a terminal or command prompt and navigate to the directory containing the script.
 3. Run the script using the following command:
-Copy code
-python hand_gesture_volume_control.py
+   ```python
+   volume.py
+   
 4. Ensure that your webcam is connected and functional.
 5. Hold your hand in front of the webcam with your thumb and index finger extended.
 6. Move your thumb and index finger closer together or farther apart to adjust the volume. Moving them closer increases the volume, while moving them farther apart decreases the volume.
